@@ -10,15 +10,26 @@
 <body>
     <header>
 
+        <h1>Renzo Sahade Práctico N°1</h1>
+        <nav>
+            <ul>
+                <li><a href="#section_div">Ir a la sección de los div</a></li>
+                <li><a href="#section_propiedades">Ir a la sección de propiedades</a></li>
+            </ul>
+        </nav>
+
     </header>
     <main>
 
-        <!--Esto lo voy a dejar acá de momento porque me parecio ver delante que hay que usar un nav-->
-        <h1>1. Estrúctura Básica del documento HTML</h1>
-        <p>
-            Este documento HTML tiene una estructura básica que incluye la declración del DOCTYPE,
-            etiquetas de metadatos y un título
-        </p>
+        <section>
+            <h2>1. Estrúctura Básica del documento HTML</h2>
+            <p>
+                Este documento HTML tiene una estructura básica que incluye la declración del DOCTYPE,
+                etiquetas de metadatos y un título. Además que posteriormente se agregan el resto de etiquetas
+                básicas y se ordenan de forma semantimacemente correcta.
+            </p>
+        </section>
+
 
         <!--Como dice el H2 esta sección es de propiedades de texto utilizando la propiedad style-->
         <section id="section_propiedades">
@@ -34,6 +45,7 @@
             </div>
         </section>
 
+
         <!--Creando bloques de etiquetas utilizando div-->
         <section id="section_div">
             <h2>3.Divisiones y agrupaciones de contenido</h2>
@@ -47,6 +59,7 @@
             </div>
         </section>
 
+
         <!--En esta parte utilizaremos las listas tanto ordenadas como desordenadas y los links-->
         <section>
             <div>
@@ -56,7 +69,7 @@
             </div>
             <div>
                 <h3>Los enlaces internos son:</h3>
-                <ul> <!--Si no se ve el efecto de ir al link, recomiendo amplicar el zoom de la página-->
+                <ul> <!--Si bien los use en el nav ya que es una buena práctica, los vuelvo a poner aca por las dudas-->
                     <li><a href="#section_div">Ir a la sección de los div</a></li>
                     <li><a href="#section_propiedades">Ir a la sección de propiedades</a></li>
                 </ul>
@@ -77,6 +90,7 @@
             </div>
         </section>
 
+
         <!--Section de multimedia-->
         <section>
             <h2>5. Elementos Multimedia</h2>
@@ -86,6 +100,7 @@
                 <audio src="multimedia/audio.mp3" controls></audio>
             </div>
         </section>
+
 
         <!--Section del práctico que se encarga de tablas-->
         <section>
@@ -130,6 +145,33 @@
                 <button>Enviar</button>
             </form>
         </section>
+
+
+        <!--Este es el asside, lo coloque para demostrar su uso aunque no lo pidan-->
+        <aside>
+            <h2>Asside</h2>
+            <p>Aca se suele colocar información que acompaña lo incluido en las distintas secciones o artículos,
+                comunmente como su nombre indica, por medio de CSS se suele colocar a un costado de la página
+            </p>
+        </aside>
+
+
+        <!--Este es el footer, al igual que el aside no aclaraban como usarlo asi que improvise-->
+        <footer>
+            <h2>Footer</h2>
+            <p>Esto es el footer de la pagina o el pie de página, en esta parte se suele colocar información
+                de contacto, de derechos en caso de haberlos, o mas cosas de ese estilo
+            </p>
+            <article>
+                <h3>Contacto</h3>
+                <ul>
+                    <li>Cuenta de GitHub: <a href="https://github.com/sahaderenzo">sahaderenzo</a></li>
+                    <li>Repositorio de la página: <a href="https://github.com/sahaderenzo/practico_n1">Práctico 1</a>
+                    </li>
+                </ul>
+            </article>
+        </footer>
+
     </main>
 </body>
 
